@@ -577,18 +577,20 @@
                     <h2>Leave your message below</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form action="#" class="row gy-lg-3 gy-3">
+                  
+                    <form action="https://api.web3forms.com/submit" method="POST" class="row gy-lg-3 gy-3">
+                      <input type="hidden" name="access_key" value="6f96ae5c-c730-43a7-a633-c40e8d986a25">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Enter your name">
+                            <input type="text" name="name" class="form-control" placeholder="Enter your name">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email">
                         </div>
                         <div class="form-group col-md-12">
-                            <input type="text" class="form-control" placeholder="Enter subject ">
+                            <input type="text" name="subject" class="form-control" placeholder="Enter subject ">
                         </div>
                         <div class="form-group col-md-12">
-                           <textarea name=""  rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                           <textarea name="message"  rows="4" class="form-control" placeholder="Enter your message"></textarea>
                         </div>
                         <div class="form-group col-md-12 d-grid">
                           <button type="submit" class="btn btn-brand">Contact me</button>
